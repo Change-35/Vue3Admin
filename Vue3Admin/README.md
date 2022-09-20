@@ -1,29 +1,15 @@
-# hy-vue3-ts-cms
+# 基于Vue3+TS后台管理系统
 
-## Project setup
-
+## 技术栈：
 ```
-npm install
+    基于 Vue3、Vuex、VueRouter、Vite、 ElementPlus 、TypeScript、Echart5、Less 等后台系统解决方案
 ```
-
-### Compiles and hot-reloads for development
-
+## 技术点： 
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
+    使用element-plus组件库，页面组件化开发，登录页面输入框添加规则，使用Echart5对商品信息可视化展示；
+    动态添加路由，管理用户权限，使用Axios进行网络请求，使用Express框架编写接口，采用 mysql 数据库进行数据存储;
+    添加代码规范 : EditorConfig + Prettier + ESLint；
+    实现增、删、查、改用户及商品信息等功能；
 ```
 
-### Lints and fixes files
 
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
